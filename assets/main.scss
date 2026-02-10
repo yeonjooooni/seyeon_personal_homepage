@@ -3,3 +3,14 @@
 ---
 
 @import 'modern-resume-theme';
+
+/* Tighter spacing between About and Projects */
+.about-container,
+#about {
+  margin-bottom: 1.5rem;
+}
+
+.about-container + .content-container,
+#about + .content-container {
+  margin-top: 1.5rem;
+}
