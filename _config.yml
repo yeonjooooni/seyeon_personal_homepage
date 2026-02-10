@@ -30,10 +30,11 @@ linkedin_username: 세연-최-30b0b029a
 # orcid_username: 0000-0000-0000-0000
 
 # # Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
+# Additional icon links
+additional_links:
+- title: CV
+  icon: fas fa-file-alt
+  url: assets/Seyeon_CV.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -148,10 +149,10 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Outside of my research, I enjoy activities that help me recharge and stay curious.
-      - Cooking, especially Asian cuisine  
-      - Exploring new restaurants and cafés  
-      - Collecting and enjoying fragrances, with a preference for citrus, floral, and soft musk notes  
-      - Reading books in my spare time  
+      - Cooking, especially Asian cuisine 
+      - Exploring new restaurants and cafés ☕️
+      - Collecting and enjoying fragrances, with a preference for citrus 🍋‍🟩, floral 🌸, and soft musk notes
+      - Reading books in my spare time 📚 
 
       Below is a photo I took during one of my walks.
       
