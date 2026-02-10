@@ -14,3 +14,13 @@
 #about + .content-container {
   margin-top: 1.5rem;
 }
+
+/* Show a visible "CV" label next to the CV link in the social area. */
+a[title="CV"]::after,
+a[href$="/assets/Seyeon_CV.pdf"]::after {
+  content: "CV";
+  margin-left: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
