@@ -22,7 +22,7 @@ github_username:  yeonjooooni
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: threebottle01
-linkedin_username: seyeon
+linkedin_username: 최세연
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -46,11 +46,12 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+about_profile_image: images/seyeon_choi.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Seyeon Choi and I'm a MS/Phd student at Seoul National University. 
+  As well as studying I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+# I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
   - title: Projects # Title for the section
@@ -127,7 +128,6 @@ content:
       - Rock climbing
       - Gaming
       - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
       Look at this cool image  
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
