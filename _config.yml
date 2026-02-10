@@ -15,7 +15,7 @@ email: seyeon.choi@vision.snu.ac.kr
 darkmode: false
 
 # Social links
-# twitter_username: facespics
+twitter_username: seyeon717
 github_username:  yeonjooooni
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
@@ -29,11 +29,11 @@ linkedin_username: 세연-최-30b0b029a
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
-# Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# # Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -63,7 +63,8 @@ content:
     content:
       - layout: top-middle
         title: Improving Multi-lingual Alignment Through Soft Contrastive Learning
-        description: Minsu Park*, Seyeon Choi*, Chanyeol Choi, Jun-Seong Kim, Jy-yong Sohn (NAACL Student Research Workshop 2024)
+        quote: >
+          Minsu Park*, Seyeon Choi*, Chanyeol Choi, Jun-Seong Kim, Jy-yong Sohn (NAACL Student Research Workshop 2024)
 
   - title: Projects
     layout: list
@@ -91,11 +92,11 @@ content:
           Implemented the Catmull–Clark subdivision surface algorithm on multiple GPUs as part of CS267: Application of Parallel Computers.
           Focused on parallelization efficiency and scalability.
 
-      - layout: top-middle
-        title: Segmentation with Modified U-Net
-        description: |
-          Improved segmentation performance by modifying loss functions and backbone architectures in a U-Net baseline.
-          Conducted as part of AAI 3201: Deep Learning Theory and Practice.
+      # - layout: top-middle
+      #   title: Segmentation with Modified U-Net
+      #   description: |
+      #     Improved segmentation performance by modifying loss functions and backbone architectures in a U-Net baseline.
+      #     Conducted as part of AAI 3201: Deep Learning Theory and Practice.
   - title: Experience
     layout: list
     content:
@@ -154,7 +155,7 @@ content:
 
       Below is a photo I took during one of my walks.
       
-      ![Seyeon Choi](/images/cool_picture.jpg "Seyeon Choi")
+      ![Seyeon Choi](images/cool_picture.jpg "Seyeon Choi")
 
 # Footer
 footer_show_references: true
