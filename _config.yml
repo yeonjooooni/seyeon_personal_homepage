@@ -66,18 +66,22 @@ content:
         description: |
           **Weasel: Out-of-Domain Generalization for Web Agents via Importance-Diversity Data Selection**
 
-          Fatemeh Pesaran Zadeh*, Seyeon Choi*, Xing Han Lù, Siva Reddy and Gunhee Kim
+          Fatemeh Pesaran Zadeh<sup>*</sup>, Seyeon Choi<sup>*</sup>, Xing Han Lù, Siva Reddy and Gunhee Kim
 
           [[PDF]](https://arxiv.org/abs/2605.20291) [[Project]](https://yeonjooooni.github.io/WEASEL_projectpage/) [[Code]](https://github.com/fatemehpesaran310/weasel)
+
+          <sub><sup>*</sup> Equal contribution</sub>
 
       - layout: left
         title: NAACL SRW 2024
         description: |
           **Improving Multi-lingual Alignment Through Soft Contrastive Learning**
 
-          Minsu Park*, Seyeon Choi*, Chanyeol Choi, Jun-Seong Kim, Jy-yong Sohn
+          Minsu Park<sup>*</sup>, Seyeon Choi<sup>*</sup>, Chanyeol Choi, Jun-Seong Kim, Jy-yong Sohn
 
           [[PDF]](https://arxiv.org/abs/2405.16155)
+
+          <sub><sup>*</sup> Equal contribution</sub>
 
   - title: Projects
     layout: list
