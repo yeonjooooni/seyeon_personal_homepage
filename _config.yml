@@ -61,10 +61,19 @@ content:
   - title: Publications
     layout: list
     content:
-      - layout: top-middle
+      - layout: left
+        title: "Weasel: Out-of-Domain Generalization for Web Agents via Importance-Diversity Data Selection"
+        sub_title: Fatemeh Pesaran, Seyeon Choi, Xing Han Lù, Siva Reddy and Gunhee Kim
+        caption: ICML 2026
+        description: |
+          [[PDF]](https://arxiv.org/abs/2605.20291) [[Project]](https://yeonjooooni.github.io/WEASEL_projectpage/) [[Code]](https://github.com/fatemehpesaran310/weasel)
+
+      - layout: left
         title: Improving Multi-lingual Alignment Through Soft Contrastive Learning
-        quote: >
-          Minsu Park*, Seyeon Choi*, Chanyeol Choi, Jun-Seong Kim, Jy-yong Sohn (NAACL Student Research Workshop 2024)
+        sub_title: Minsu Park*, Seyeon Choi*, Chanyeol Choi, Jun-Seong Kim, Jy-yong Sohn
+        caption: NAACL SRW 2024
+        description: |
+          [[PDF]](https://arxiv.org/abs/2405.16155)
 
   - title: Projects
     layout: list
