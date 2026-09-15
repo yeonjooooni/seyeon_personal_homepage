@@ -62,6 +62,15 @@ content:
     layout: list
     content:
       - layout: left
+        title: ICML AIWILD 2026
+        description: |
+          **WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents**
+
+          Imene Kerboua, Fatemeh Pesaran Zadeh, Xing Han Lù, Weijian Qi, Alexander Miller, Junyi Song, Yunjia Tian, Dongjin Kang, Seyeon Choi, Marzia Nouri, Ewen Gueguen, Matteo Boglioni, Fengyuan Liu, Zeyi Liao, Mengqi Yuan, Yue Li, Alexandre Lacoste, Alexandre Drouin, Spandana Gella, Huan Sun, Gunhee Kim, Siva Reddy
+
+          [[PDF]](https://openreview.net/...) [[Project]](https://yeonjooooni.github.io/WEASEL_projectpage/) [Code (coming soon)]
+
+      - layout: left
         title: ICML 2026
         description: |
           **Weasel: Out-of-Domain Generalization for Web Agents via Importance-Diversity Data Selection**
