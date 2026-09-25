@@ -62,7 +62,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: ICML AIWILD 2026
+        title: NeurIPS 2026 (E&D Track)
         description: |
           **WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents**
 
