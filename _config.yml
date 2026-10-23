@@ -124,6 +124,14 @@ content:
           **Co-led the LLM subgroup of an accessibility-focused AI docent project.**
           Worked with [Heeseung Yun](https://heeseungyun.com) to manage five researchers and deploy RAG-based systems across three major museums in Seoul; the project was [featured at the Korea Metaverse Festival](https://kidd.co.kr/news/243920).
 
+      - layout: left
+        title: Yonsei University
+        sub_title: Research Intern (Advised by Jinyeong Yeo)
+        caption: June 2023 – June 2024
+        description: |
+          **Supported experiments for two LLM papers.**
+          [CAFFEINE](https://arxiv.org/pdf/2401.14215.pdf), on keeping persona quality consistent as the underlying information changes over time, and [Coffee](https://arxiv.org/abs/2311.07215), on improving code LLMs by fixing bugs with feedback.
+
   - title: Education
     layout: list
     content:

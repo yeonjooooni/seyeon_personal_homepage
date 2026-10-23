@@ -84,6 +84,13 @@ p {
 
   h4 {
     font-size: 1.7rem;
+
+    /* Both columns start at the same y, but their first lines sit
+       differently inside it: the right column's text is 16px on a 25.92px
+       line (4.96px of half-leading above it) while this heading is 17px on
+       a 20.4px line (1.7px). That gap left the heading riding ~3px high.
+       Pad the difference back. */
+    padding-top: 3px;
   }
 
   /* Institution under the lab name: its own line, quieter than the lab.
