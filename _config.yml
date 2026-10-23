@@ -125,7 +125,7 @@ content:
           Worked with [Heeseung Yun](https://heeseungyun.com) to manage five researchers and deploy RAG-based systems across three major museums in Seoul; the project was [featured at the Korea Metaverse Festival](https://kidd.co.kr/news/243920).
 
       - layout: left
-        title: Data and Language Intelligence Lab
+        title: Data and Language Intelligence Lab, Yonsei University
         sub_title: Research Intern (Advised by Jinyeong Yeo)
         caption: June 2023 – June 2024
         description: |
@@ -181,12 +181,18 @@ content:
 
       <div class="lightbox" id="photo-walk-01">
         <a class="lightbox-close" href="#photos" aria-label="Close"></a>
-        <img src="images/gallery/walk-01.jpg" alt="Sunset on an evening walk">
+        <figure>
+          <img src="images/gallery/walk-01.jpg" alt="Sunset on an evening walk">
+          <figcaption>Sunset on an evening walk</figcaption>
+        </figure>
       </div>
 
       <div class="lightbox" id="photo-coast-01">
         <a class="lightbox-close" href="#photos" aria-label="Close"></a>
-        <img src="images/gallery/coast-01.jpg" alt="Sunset over the coastline">
+        <figure>
+          <img src="images/gallery/coast-01.jpg" alt="Sunset over the coastline">
+          <figcaption>Sunset over the coastline</figcaption>
+        </figure>
       </div>
 
 # Footer
