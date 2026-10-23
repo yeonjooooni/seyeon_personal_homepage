@@ -115,7 +115,7 @@ content:
 
       - layout: left
         title: Seoul National University<span class="org">Vision & Learning Lab</span>
-        sub_title: Research Intern (Advised by Gunhee Kim)
+        sub_title: Research Intern<br><span class="sub">Advised by Gunhee Kim</span>
         caption: July 2024 – Feb 2025
         description: |
           **Out-of-domain generalization for web agents.**
@@ -126,7 +126,7 @@ content:
 
       - layout: left
         title: Yonsei University
-        sub_title: Research Intern (Advised by Jinyeong Yeo)
+        sub_title: Research Intern<br><span class="sub">Advised by Jinyeong Yeo</span>
         caption: June 2023 – June 2024
         description: |
           **Supported experiments for two LLM papers.**

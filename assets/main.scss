@@ -104,6 +104,14 @@ p {
     margin-top: 2px;
   }
 
+  /* Advisor on its own line inside the bold role line. Kept inline (a
+     <br> rather than display:block) because the theme wraps sub_title in
+     <p><b>, and a block-level child there would split the paragraph. */
+  .sub {
+    font-weight: 400;
+    color: #555;
+  }
+
   .link {
     font-size: 1.4rem;
   }
