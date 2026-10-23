@@ -11,6 +11,25 @@
    page toward a quieter academic layout.
    ------------------------------------------------------------------ */
 
+/* --- Accent ------------------------------------------------------- */
+/* One colour for links and the favicon. The theme ships #477dca, which
+   reaches only 4.15:1 on white and so misses WCAG AA for body text
+   (4.5:1). A deep green at 5.02:1 clears it and avoids the default
+   academic-page blue. Lighter greens fail fast: #3a9d4f is 3.43:1. */
+
+$accent: #15803d;
+$accent-dark: #0f5c2c;
+
+a {
+  color: $accent;
+}
+
+a:active,
+a:focus,
+a:hover {
+  color: $accent-dark;
+}
+
 /* --- Typography -------------------------------------------------- */
 
 body {
