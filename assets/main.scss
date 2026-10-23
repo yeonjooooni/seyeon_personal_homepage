@@ -86,6 +86,17 @@ p {
     font-size: 1.7rem;
   }
 
+  /* Institution under the lab name: its own line, quieter than the lab.
+     `display: block` means the title needs no <br>, which keeps the
+     theme's slugified anchor id clean. */
+  h4 .org {
+    display: block;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #555;
+    margin-top: 2px;
+  }
+
   .link {
     font-size: 1.4rem;
   }

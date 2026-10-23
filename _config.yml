@@ -114,7 +114,7 @@ content:
           **Participated in the [BEHAVIOR Challenge 2026](https://behavior.stanford.edu/challenge/index.html).**
 
       - layout: left
-        title: Vision & Learning Lab, Seoul National University
+        title: Seoul National University<span class="org">Vision & Learning Lab</span>
         sub_title: Research Intern (Advised by Gunhee Kim)
         caption: July 2024 – Feb 2025
         description: |
@@ -125,7 +125,7 @@ content:
           Worked with [Heeseung Yun](https://heeseungyun.com) to manage five researchers and deploy RAG-based systems across three major museums in Seoul; the project was [featured at the Korea Metaverse Festival](https://kidd.co.kr/news/243920).
 
       - layout: left
-        title: Data and Language Intelligence Lab, Yonsei University
+        title: Yonsei University<span class="org">Data and Language Intelligence Lab</span>
         sub_title: Research Intern (Advised by Jinyeong Yeo)
         caption: June 2023 – June 2024
         description: |
