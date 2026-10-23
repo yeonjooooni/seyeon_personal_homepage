@@ -137,7 +137,7 @@ content:
     content:
       - layout: left
         title: Seoul National University
-        sub_title: PhD Student, IPAI (Vision & Learning Lab)
+        sub_title: PhD student (IPAI)
         caption: March 2025 – Present
         description: |
           **Advised by Prof. Gunhee Kim** at the [Vision & Learning Lab](https://vision.snu.ac.kr).
@@ -145,11 +145,11 @@ content:
 
       - layout: left
         title: Yonsei University
-        sub_title: B.S. in Computer Science (Minor in Industrial Engineering)
+        sub_title: B.S. in Computer Science
         caption: March 2020 – February 2025
         description: |
           **GPA 4.08 / 4.3.**
-          High honor in 2020-1, and honor in 2021-1, 2022-1 and 2023-2. Coursework and projects across machine learning, systems and applied AI.
+          Minor in Industrial Engineering. High honor in 2020-1, and honor in 2021-1, 2022-1 and 2023-2. Coursework and projects across machine learning, systems and applied AI.
 
       - layout: left
         title: University of California, Berkeley
