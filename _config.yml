@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Seyeon Choi
-title: MS/Phd student
+title: PhD Student, Seoul National University
 email: seyeon.choi@vision.snu.ac.kr
 # website: www.github.com/yeonjooooni/seyeon_personal_homepage
 
@@ -47,7 +47,7 @@ additional_links:
 # About Section
 # about_title: About Me
 
-about_profile_image: images/seyeon_choi.jpg
+about_profile_image: images/seyeon_choi_sm.jpg
 about_content: |
   Hi, I’m Seyeon Choi, a PhD student at Seoul National University, affiliated with the Vision & Learning Lab.
   My research focuses on building generalizable embodied agents, with particular interest in grounding, interaction, and decision-making in complex environments.
@@ -66,16 +66,16 @@ content:
         description: |
           **WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents**
 
-          Imene Kerboua, Fatemeh Pesaran Zadeh, Xing Han Lù, Weijian Qi, Alexander Miller, Junyi Song, Yunjia Tian, Dongjin Kang, Seyeon Choi, Marzia Nouri, Ewen Gueguen, Matteo Boglioni, Fengyuan Liu, Zeyi Liao, Mengqi Yuan, Yue Li, Alexandre Lacoste, Alexandre Drouin, Spandana Gella, Huan Sun, Gunhee Kim, Siva Reddy
+          Imene Kerboua, Fatemeh Pesaran Zadeh, Xing Han Lù, Weijian Qi, Alexander Miller, Junyi Song, Yunjia Tian, Dongjin Kang, **Seyeon Choi**, Marzia Nouri, Ewen Gueguen, Matteo Boglioni, Fengyuan Liu, Zeyi Liao, Mengqi Yuan, Yue Li, Alexandre Lacoste, Alexandre Drouin, Spandana Gella, Huan Sun, Gunhee Kim, Siva Reddy
 
-          [[PDF]](https://openreview.net/...) [Code (coming soon)]
+          [[PDF]](https://openreview.net/...)
 
       - layout: left
         title: ICML 2026
         description: |
           **Weasel: Out-of-Domain Generalization for Web Agents via Importance-Diversity Data Selection**
 
-          Fatemeh Pesaran Zadeh<sup>*</sup>, Seyeon Choi<sup>*</sup>, Xing Han Lù, Siva Reddy and Gunhee Kim
+          Fatemeh Pesaran Zadeh<sup>*</sup>, **Seyeon Choi**<sup>*</sup>, Xing Han Lù, Siva Reddy and Gunhee Kim
 
           [[PDF]](https://arxiv.org/abs/2605.20291) [[Project]](https://yeonjooooni.github.io/WEASEL_projectpage/) [[Code]](https://github.com/fatemehpesaran310/weasel)
 
@@ -86,61 +86,51 @@ content:
         description: |
           **Improving Multi-lingual Alignment Through Soft Contrastive Learning**
 
-          Minsu Park<sup>*</sup>, Seyeon Choi<sup>*</sup>, Chanyeol Choi, Jun-Seong Kim, Jy-yong Sohn
+          Minsu Park<sup>*</sup>, **Seyeon Choi**<sup>*</sup>, Chanyeol Choi, Jun-Seong Kim, Jy-yong Sohn
 
           [[PDF]](https://arxiv.org/abs/2405.16155)
 
           <sub><sup>*</sup> Equal contribution</sub>
 
-  - title: Projects
-    layout: list
-    content:
-      - layout: top-middle
-        title: Generalizable Web Agent (Capstone Design II)
-        quote: >
-          Improving generalization of web agents to unseen websites via exemplar-based memory.
-        description: |
-          Designed a web agent that improves performance on unseen websites by constructing an exemplar memory during an exploration phase and leveraging it at inference time.
-          This project focuses on robustness and cross-website generalization beyond in-domain training.
-          Currently in progress as part of Software Capstone Design (II).
+  # - title: Blog
+  #   layout: list
+  #   content:
+  #     - layout: left
+  #       title: <post title>
+  #       caption: <Month Year>
+  #       link: <post url>
+  #       link_text: Read
+  #       description: |
+  #         One or two casual sentences about what the post is about.
 
-      - layout: top-middle
-        title: Robust Face Forgery Detection
-        quote: >
-          Domain-robust deepfake detection using contrastive learning.
-        description: |
-          Built a robust deepfake detection system using supervised contrastive loss and domain-adversarial networks.
-          This work was published and accepted at IPIU 2024, conducted as part of Software Capstone Design (I).
-
-      - layout: top-middle
-        title: Multi-GPU Catmull–Clark Subdivision
-        description: |
-          Implemented the Catmull–Clark subdivision surface algorithm on multiple GPUs as part of CS267: Application of Parallel Computers.
-          Focused on parallelization efficiency and scalability.
-
-      # - layout: top-middle
-      #   title: Segmentation with Modified U-Net
-      #   description: |
-      #     Improved segmentation performance by modifying loss functions and backbone architectures in a U-Net baseline.
-      #     Conducted as part of AAI 3201: Deep Learning Theory and Practice.
   - title: Experience
     layout: list
     content:
+      - layout: left
+        title: Ludo Robotics
+        sub_title: Intern
+        caption: September 2026 – October 2026
+        description: |
+          **Participated in the [BEHAVIOR Challenge 2026](https://behavior.stanford.edu/challenge/index.html).**
+
       - layout: left
         title: Vision & Learning Lab, Seoul National University
         sub_title: Research Intern (Advised by Gunhee Kim)
         caption: July 2024 – Feb 2025
         description: |
-          Conducted research on web agents with a focus on grounding and interaction.
-          Worked on agent generalization and robustness in real-world web environments.
+          **Out-of-domain generalization for web agents.**
+          Studied why web agents degrade on unseen websites and how training data should be selected to close that gap, leading to [Weasel](https://arxiv.org/abs/2605.20291) (ICML 2026).
+
+          **Co-led the LLM subgroup of an accessibility-focused AI docent project.**
+          Worked with [Heeseung Yun](https://heeseungyun.com) to manage five researchers and deploy RAG-based systems across three major museums in Seoul; the project was [featured at the Korea Metaverse Festival](https://kidd.co.kr/news/243920).
 
       - layout: left
         title: Data and Language Intelligence Lab
         sub_title: Research Intern (Advised by Jinyeong Yeo)
         caption: June 2023 – June 2024
         description: |
-          Supported experiments for CAFFEINE and Coffee, focusing on improving persona consistency in language models under temporal information changes.
-          Participated in discussions on maintaining long-term persona quality.
+          **Supported experiments for two LLM papers.**
+          [CAFFEINE](https://arxiv.org/pdf/2401.14215.pdf), on keeping persona quality consistent as the underlying information changes over time, and [Coffee](https://arxiv.org/abs/2311.07215), on improving code LLMs by fixing bugs with feedback.
 
   - title: Education
     layout: list
@@ -150,7 +140,7 @@ content:
         sub_title: PhD Student, IPAI (Vision & Learning Lab)
         caption: March 2025 – Present
         description: |
-          PhD student advised by Prof. Gunhee Kim.
+          **Advised by Prof. Gunhee Kim** at the [Vision & Learning Lab](https://vision.snu.ac.kr).
           Research focuses on embodied agents, grounding, and interaction, with a long-term goal of building generalizable decision-making agents.
 
       - layout: left
@@ -158,17 +148,16 @@ content:
         sub_title: B.S. in Computer Science (Minor in Industrial Engineering)
         caption: March 2020 – February 2025
         description: |
-          GPA: 4.08 / 4.3.
-          Received multiple academic honors across semesters.
-          Completed coursework and projects in machine learning, systems, and applied AI.
+          **GPA 4.08 / 4.3.**
+          High honor in 2020-1, and honor in 2021-1, 2022-1 and 2023-2. Coursework and projects across machine learning, systems and applied AI.
 
       - layout: left
         title: University of California, Berkeley
         sub_title: Exchange Student
         caption: January 2023 – May 2023
         description: |
-          GPA: 3.83 / 4.0.
-          Coursework included Abstract Algebra, Computer Security, Introduction to Analysis, and Application of Parallel Computing.
+          **GPA 3.83 / 4.0.**
+          Coursework in Abstract Algebra, Computer Security, Introduction to Analysis, and Applications of Parallel Computers (CS267).
           
   - title: A Little More About Me
     layout: text
@@ -179,9 +168,18 @@ content:
       - Collecting and enjoying fragrances, with a preference for citrus 🍋‍🟩, floral 🌸, and soft musk notes
       - Reading books in my spare time 📚 
 
-      Below is a photo I took during one of my walks.
-      
-      ![Seyeon Choi](images/cool_picture.jpg "Seyeon Choi")
+      A few photos I took along the way. Click one to see it larger.
+
+      <div class="gallery" id="photos">
+        <a class="gallery-item" href="#photo-walk-01">
+          <img src="images/gallery/walk-01-thumb.jpg" alt="Sunset on an evening walk" loading="lazy">
+        </a>
+      </div>
+
+      <div class="lightbox" id="photo-walk-01">
+        <a class="lightbox-close" href="#photos" aria-label="Close"></a>
+        <img src="images/gallery/walk-01.jpg" alt="Sunset on an evening walk">
+      </div>
 
 # Footer
 footer_show_references: true

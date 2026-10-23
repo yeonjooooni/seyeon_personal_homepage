@@ -4,7 +4,184 @@
 
 @import 'modern-resume-theme';
 
-/* Tighter spacing between About and Projects */
+/* ------------------------------------------------------------------
+   NOTE: Bootstrap 3 sets `html { font-size: 10px }`, so 1rem = 10px.
+   The upstream theme ships very large headings (h1 4rem = 40px,
+   h3 3rem = 30px, h4 2.5rem = 25px). Everything below rescales the
+   page toward a quieter academic layout.
+   ------------------------------------------------------------------ */
+
+/* --- Typography -------------------------------------------------- */
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.62;
+}
+
+/* Name */
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+/* Tagline under the name */
+h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #666;
+}
+
+/* Section headings: smaller, left-aligned, hairline rule */
+h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-align: left;
+  border-bottom: solid 1px #e2e2e2;
+  padding-bottom: 6px;
+  margin-bottom: 18px;
+
+  @media print {
+    margin-bottom: 12px;
+  }
+}
+
+/* Entry titles (lab / school / paper venue) */
+h4 {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+/* Body copy. `justify` is what makes the theme stretch word gaps on
+   narrow columns, so it is turned off. */
+p,
+ul,
+ol {
+  font-size: 1.6rem;
+  text-align: left;
+}
+
+p {
+  margin: 0 0 0.6rem;
+}
+
+/* Lead-in phrase at the start of each entry description */
+.content p > strong:first-child {
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+/* Left-hand metadata column of each entry.
+   The theme centres this column vertically (`justify-content: center`),
+   so a short left block floats to the middle of a tall right block.
+   Pin both columns to the top instead. */
+.layout .details {
+  justify-content: flex-start;
+  p {
+    font-size: 1.45rem;
+    line-height: 1.45;
+  }
+
+  h4 {
+    font-size: 1.7rem;
+  }
+
+  .link {
+    font-size: 1.4rem;
+  }
+}
+
+p.quote {
+  font-size: 1.45rem;
+  padding: 0.5rem 1.5rem;
+}
+
+/* --- Social / CV links ------------------------------------------- */
+/* Upstream renders each icon as a 30px glyph centred in a filled
+   60px black disc. Flattening them to plain glyphs removes a row of
+   heavy circles without losing the links. */
+
+.icons {
+  margin-bottom: 6px;
+}
+
+ul.icons li {
+  padding-left: 1.3rem;
+}
+
+/* The theme sizes these with `.button.button--sacnite` (specificity
+   0,2,0), so a plain `ul.icons a` rule loses. Match the class chain. */
+ul.icons a.button.button--sacnite {
+  width: auto;
+  height: auto;
+  min-width: 0;
+  line-height: 1;
+  padding: 0;
+  color: #444;
+}
+
+/* `::before` is the filled disc. */
+ul.icons a.button.button--sacnite::before,
+ul.icons a.button.button--sacnite:hover::before {
+  box-shadow: none;
+}
+
+ul.icons a.button.button--sacnite:hover {
+  color: #000;
+}
+
+.icons i {
+  font-size: 2.8rem;
+  line-height: 1.4;
+  vertical-align: middle;
+}
+
+/* --- Header / profile -------------------------------------------- */
+
+.header-container {
+  margin-top: 32px;
+}
+
+.header-left {
+  margin-top: 10px;
+}
+
+.header-right p {
+  font-size: 1.5rem;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 6px;
+  margin-bottom: 14px;
+  box-shadow: none;
+}
+
+/* --- Spacing ------------------------------------------------------ */
+
+.container {
+  margin-top: 22px;
+}
+
+.layout {
+  margin-top: 2rem;
+}
+
+.layout-left .details,
+.layout-right .details {
+  margin-bottom: 1.2rem;
+}
+
+.footer-container {
+  margin-top: 48px;
+}
+
+.footer-container p {
+  font-size: 1.35rem;
+}
+
+/* Tighter spacing between About and the first content section */
 .about-container,
 #about {
   margin-bottom: 1.5rem;
@@ -15,12 +192,82 @@
   margin-top: 1.5rem;
 }
 
-/* Show a visible "CV" label next to the CV link in the social area. */
-a[title="CV"]::after,
-a[href$="/assets/Seyeon_CV.pdf"]::after {
-  content: "CV";
-  margin-left: 0.4rem;
-  font-size: 0.85rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
+/* --- Photo gallery ------------------------------------------------ */
+/* Thumbnails in a row; clicking one opens a CSS-only lightbox driven
+   by `:target`, so no JavaScript is needed. */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 1rem 0 1.5rem;
+}
+
+.gallery .gallery-item {
+  display: block;
+  width: 110px;
+  height: 110px;
+  overflow: hidden;
+  border-radius: 5px;
+  line-height: 0;
+}
+
+.gallery .gallery-item img {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.25s ease;
+}
+
+.gallery .gallery-item:hover img {
+  transform: scale(1.06);
+}
+
+.lightbox {
+  display: none;
+}
+
+.lightbox:target {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(0, 0, 0, 0.88);
+}
+
+.lightbox:target img {
+  max-width: 92vw;
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  border-radius: 4px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Full-bleed click target that closes the overlay */
+.lightbox .lightbox-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  cursor: zoom-out;
+}
+
+/* Any other loose image in a free-text section */
+.text-container p > img {
+  display: block;
+  max-width: 360px;
+  height: auto;
+  margin: 1rem 0;
+  border-radius: 6px;
 }
