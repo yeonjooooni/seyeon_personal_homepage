@@ -170,10 +170,13 @@ ul.icons a.button.button--sacnite:hover {
 }
 
 .intro-container .profile-img {
-  width: 150px;
+  display: inline-block;   /* shrink-to-fit, so aspect-ratio can set the width */
   height: 100%;
   min-height: 170px;
+  width: auto;
+  aspect-ratio: 3 / 4;     /* the source photo's ratio: nothing gets cropped */
   margin: 0;
+  vertical-align: top;
 }
 
 @media screen and (max-width: 767px) {
@@ -182,9 +185,11 @@ ul.icons a.button.button--sacnite:hover {
   }
 
   .intro-container .profile-img {
-    width: 160px;
-    height: 160px;
+    display: block;
+    width: 150px;
+    height: auto;
     min-height: 0;
+    aspect-ratio: 3 / 4;
     margin: 0 auto 14px;
   }
 }
