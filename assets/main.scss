@@ -273,6 +273,40 @@ ul.icons a.button.button--sacnite:hover {
   margin-top: 1.5rem;
 }
 
+/* --- Mobile alignment --------------------------------------------- */
+/* Below 768px the theme centres the header, the icon row and the whole
+   metadata column (with !important). Centred labels and dates are hard
+   to scan on a narrow screen, so everything goes back to the left.
+   Matching !important is required to beat the theme's own. */
+
+@media screen and (max-width: 768px) {
+  .header-container div,
+  .header-left,
+  .header-right,
+  .header-right p {
+    text-align: left;
+  }
+
+  .icons {
+    text-align: left;
+    padding-left: 0;
+  }
+
+  ul.icons li:first-child {
+    padding-left: 0;
+  }
+
+  .layout .details,
+  .layout .details p,
+  .layout-top-middle .details {
+    text-align: left !important;
+  }
+
+  .intro-container .profile-img {
+    margin: 0 0 14px;
+  }
+}
+
 /* --- Photo gallery ------------------------------------------------ */
 /* Thumbnails in a row; clicking one opens a CSS-only lightbox driven
    by `:target`, so no JavaScript is needed. */
