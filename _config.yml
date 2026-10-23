@@ -174,11 +174,19 @@ content:
         <a class="gallery-item" href="#photo-walk-01">
           <img src="images/gallery/walk-01-thumb.jpg" alt="Sunset on an evening walk" loading="lazy">
         </a>
+        <a class="gallery-item" href="#photo-coast-01">
+          <img src="images/gallery/coast-01-thumb.jpg" alt="Sunset over the coastline" loading="lazy">
+        </a>
       </div>
 
       <div class="lightbox" id="photo-walk-01">
         <a class="lightbox-close" href="#photos" aria-label="Close"></a>
         <img src="images/gallery/walk-01.jpg" alt="Sunset on an evening walk">
+      </div>
+
+      <div class="lightbox" id="photo-coast-01">
+        <a class="lightbox-close" href="#photos" aria-label="Close"></a>
+        <img src="images/gallery/coast-01.jpg" alt="Sunset over the coastline">
       </div>
 
 # Footer

@@ -158,6 +158,37 @@ ul.icons a.button.button--sacnite:hover {
   box-shadow: none;
 }
 
+/* About Me: the theme's row is float-based, so the portrait keeps its own
+   height and leaves a ragged gap next to the text. Make the row a flex
+   container and let the portrait stretch to the text block's height.
+   150x~200 is close to the source photo's 3:4 ratio, so `cover` barely
+   crops it. */
+.intro-container > .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.intro-container .profile-img {
+  width: 150px;
+  height: 100%;
+  min-height: 170px;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .intro-container > .row {
+    display: block;
+  }
+
+  .intro-container .profile-img {
+    width: 160px;
+    height: 160px;
+    min-height: 0;
+    margin: 0 auto 14px;
+  }
+}
+
 /* --- Spacing ------------------------------------------------------ */
 
 .container {
