@@ -195,6 +195,8 @@ content:
         </figure>
       </div>
 
+      <script src="assets/gallery.js"></script>
+
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
