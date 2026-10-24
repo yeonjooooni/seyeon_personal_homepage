@@ -302,6 +302,28 @@ ul.icons a.button.button--sacnite:hover {
     text-align: left !important;
   }
 
+  /* Stacked, the metadata column sits above the description and reads as
+     its heading, so it must not be smaller than the body text it
+     introduces. The reduced sizes above exist for the narrow desktop
+     column only. */
+  .layout .details h4 {
+    font-size: 1.9rem;
+    padding-top: 0;          /* the baseline nudge only matters in two columns */
+  }
+
+  .layout .details h4 .org {
+    font-size: 1.6rem;
+  }
+
+  .layout .details p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+  .layout .details .link {
+    font-size: 1.5rem;
+  }
+
   .intro-container .profile-img {
     margin: 0 0 14px;
   }
