@@ -66,9 +66,11 @@ content:
         description: |
           **WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents**
 
-          Imene Kerboua, Fatemeh Pesaran Zadeh, Xing Han Lù, Weijian Qi, Alexander Miller, Junyi Song, Yunjia Tian, Dongjin Kang, **Seyeon Choi**, Marzia Nouri, Ewen Gueguen, Matteo Boglioni, Fengyuan Liu, Zeyi Liao, Mengqi Yuan, Yue Li, Alexandre Lacoste, Alexandre Drouin, Spandana Gella, Huan Sun, Gunhee Kim, Siva Reddy
+          Imene Kerboua<sup>*</sup>, Fatemeh Pesaran Zadeh<sup>*</sup>, Xing Han Lù, Weijian Qi, Alexander Miller, Junyi Song, Yunjia Tian, Dongjin Kang, **Seyeon Choi**, Marzia Nouri, Ewen Gueguen, Matteo Boglioni, Fengyuan Liu, Zeyi Liao, Mengqi Yuan, Yue Li, Alexandre Lacoste, Alexandre Drouin, Spandana Gella, Huan Sun, Gunhee Kim, Siva Reddy
 
           [[PDF]](https://openreview.net/...)
+
+          <sub><sup>*</sup> Equal contribution</sub>
 
       - layout: left
         title: ICML 2026
