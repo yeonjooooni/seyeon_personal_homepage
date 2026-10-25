@@ -327,6 +327,15 @@ ul.icons a.button.button--sacnite:hover {
   .intro-container .profile-img {
     margin: 0 0 14px;
   }
+
+  /* Stacked, the description runs flush against the metadata above it and
+     the two blur together. Indent it so each entry reads as a heading
+     with its body tucked underneath. Bootstrap already puts 15px of
+     padding on the column, so this adds to that; padding (not margin)
+     keeps the 100%-wide column inside the viewport. */
+  .list-container .layout > .content {
+    padding-left: 33px;
+  }
 }
 
 /* --- Photo gallery ------------------------------------------------ */
