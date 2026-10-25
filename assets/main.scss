@@ -332,8 +332,13 @@ ul.icons a.button.button--sacnite:hover {
      the two blur together. Indent it so each entry reads as a heading
      with its body tucked underneath. Bootstrap already puts 15px of
      padding on the column, so this adds to that; padding (not margin)
-     keeps the 100%-wide column inside the viewport. */
-  .list-container .layout > .content {
+     keeps the 100%-wide column inside the viewport.
+
+     Publications is left alone: its left column is just a venue name, so
+     the grouping is already obvious, and indenting only makes the long
+     titles and author lists wrap more. */
+  .list-container:has(> h3#experience) .layout > .content,
+  .list-container:has(> h3#education) .layout > .content {
     padding-left: 33px;
   }
 }
