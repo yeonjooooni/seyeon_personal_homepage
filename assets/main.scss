@@ -343,6 +343,68 @@ ul.icons a.button.button--sacnite:hover {
   }
 }
 
+/* --- Dark mode ----------------------------------------------------- */
+/* `darkmode: false` in _config.yml does not mean "off": the theme then
+   ships assets/js/index.js, which adds .dark to <body> whenever the OS
+   asks for a dark scheme. Every colour set above is a light-mode value,
+   so each one needs a counterpart here or it lands on #222 unreadable.
+   Measured against #222: #1a1a1a was 1.09:1, #555 was 2.13:1, #444 was
+   1.63:1. Selectors are prefixed with .dark both to scope them and to
+   outrank the theme's own .dark rules. */
+
+$accent-on-dark: #4ade80;        /* same hue as #15803d, 9.13:1 on #222 */
+$accent-on-dark-hover: #86efac;
+
+.dark {
+  a {
+    color: $accent-on-dark;
+  }
+
+  a:active,
+  a:focus,
+  a:hover {
+    color: $accent-on-dark-hover;
+  }
+
+  h2 {
+    color: #aaa;
+  }
+
+  h3 {
+    border-bottom-color: #3a3a3a;
+  }
+
+  .content p > strong:first-child {
+    color: #f0f0f0;
+  }
+
+  .layout .details h4 .org,
+  .layout .details .sub {
+    color: #aaa;
+  }
+
+  .footer-container p,
+  .footer-container a {
+    color: #aaa;
+  }
+}
+
+/* The theme turns the icon glyphs #222 because it expects them to sit on
+   a light disc, which the flat treatment above removes. Outrank both. */
+.dark ul.icons a.button.button--sacnite,
+.dark .icons i {
+  color: #ddd;
+}
+
+.dark ul.icons a.button.button--sacnite:hover,
+.dark ul.icons a.button.button--sacnite:hover .icons i {
+  color: #fff;
+}
+
+.dark .gallery .gallery-item img {
+  opacity: 0.92;
+}
+
 /* --- Photo gallery ------------------------------------------------ */
 /* Thumbnails in a row; clicking one opens a CSS-only lightbox driven
    by `:target`, so no JavaScript is needed. */
